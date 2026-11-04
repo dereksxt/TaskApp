@@ -1,78 +1,72 @@
-# React + TypeScript + Vite
+# TaskApp – React & TypeScript
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and modern task management application built with **React**, **TypeScript** and **useReducer**.
 
-Currently, two official plugins are available:
+## 🚀 Technologies
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **React** – Component-based UI development.
+- **TypeScript** – Static typing and safer code.
+- **Vite** – Fast development environment.
+- **useReducer** – Centralized state management.
+- **Lucide React** – Icons.
+- **Tailwind CSS** – Styling and responsive design.
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+- Add new tasks.
+- Delete existing tasks.
+- Mark tasks as completed.
+- Manage application state using `useReducer`.
+- Reusable React components.
+- Type-safe application with TypeScript.
 
-Note: This will impact Vite dev & build performances.
-You can also try [the experimental native React Compiler support in plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md#rust-react-compiler) by using `compiler: true` in the plugin options instead of using the Babel plugin.
+## 📸 Overview
 
-## Expanding the ESLint configuration
+<!-- Add a screenshot of your application here -->
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🛠️ Installation
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+Clone the repository:
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-
+```bash
+git clone https://github.com/dereksxt/react-usereducer-taskapp.git
 ```
 
-You can also install [eslint-plugin-react-x](https://npmx.dev/package/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://npmx.dev/package/eslint-plugin-react-dom) for React-specific lint rules:
+Navigate to the project directory:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-
+```bash
+cd react-usereducer-taskapp
 ```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+## 📚 What I learned
+
+This project helped me practice and improve my knowledge of:
+
+- React state management with `useReducer`.
+- Creating and managing custom reducer functions.
+- Working with TypeScript interfaces and types.
+- Handling user interactions and application state.
+- Organizing a React project into reusable components.
+
+## 👨‍💻 Author
+
+**Derek Serpa**
+
+- GitHub: [@dereksxt](https://github.com/dereksxt)
+- Portfolio: [dereksxt.netlify.app](https://dereksxt.netlify.app)
+
+---
+
+Made with ❤️ using React and TypeScript.
