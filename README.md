@@ -1,4 +1,4 @@
-# TaskApp – React & TypeScript
+# TaskApp
 
 A simple and modern task management application built with **React**, **TypeScript** and **useReducer**.
 
@@ -29,13 +29,13 @@ A simple and modern task management application built with **React**, **TypeScri
 Clone the repository:
 
 ```bash
-git clone https://github.com/dereksxt/react-usereducer-taskapp.git
+git clone https://github.com/dereksxt/TaskApp.git
 ```
 
 Navigate to the project directory:
 
 ```bash
-cd react-usereducer-taskapp
+cd TaskApp
 ```
 
 Install dependencies:
@@ -55,7 +55,7 @@ npm run dev
 This project helped me practice and improve my knowledge of:
 
 - React state management with `useReducer`.
-- Creating and managing custom reducer functions.
+- Creating and managing reducer functions.
 - Working with TypeScript interfaces and types.
 - Handling user interactions and application state.
 - Organizing a React project into reusable components.
